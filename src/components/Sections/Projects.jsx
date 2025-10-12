@@ -16,12 +16,11 @@ const Projects = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {portfolioData.projects.map((project, index) => (
+          {portfolioData.projects.map((project) => (
             <div
               key={project.id}
               className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2 group"
             >
-              {/* Project Image */}
               <div className="relative overflow-hidden">
                 <img
                   src={project.image}
@@ -35,8 +34,6 @@ const Projects = () => {
                   </div>
                 )}
               </div>
-
-              {/* Project Content */}
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-gray-800 mb-3 group-hover:text-indigo-600 transition-colors">
                   {project.title}
@@ -44,8 +41,6 @@ const Projects = () => {
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {project.description}
                 </p>
-
-                {/* Technologies */}
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.technologies.map((tech) => (
                     <span
@@ -56,8 +51,6 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-
-                {/* Action Buttons */}
                 <div className="flex space-x-4">
                   <a
                     href={project.live}

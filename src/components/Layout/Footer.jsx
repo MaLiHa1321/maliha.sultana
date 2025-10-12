@@ -8,22 +8,19 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white py-12 border-t border-gray-800">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
-          {/* Logo & Copyright */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">AJ</span>
+              <span className="text-white font-bold text-sm">MS</span>
             </div>
             <div>
               <GradientText className="text-lg font-bold">
-                AlexJohnson
+                MALIHASULTANA
               </GradientText>
               <p className="text-gray-400 text-sm">
                 © {currentYear} All rights reserved.
               </p>
             </div>
           </div>
-
-          {/* Navigation Links */}
           <div className="flex flex-wrap justify-center space-x-6">
             {['Home', 'About', 'Skills', 'Projects', 'Contact'].map((item) => (
               <a
@@ -35,14 +32,11 @@ const Footer = () => {
               </a>
             ))}
           </div>
-
-          {/* Social Links */}
           <div className="flex space-x-4">
             {[
-              { name: 'GitHub', icon: '🐱', url: '#' },
-              { name: 'LinkedIn', icon: '💼', url: '#' },
-              { name: 'Twitter', icon: '🐦', url: '#' },
-              { name: 'Email', icon: '📧', url: '#' }
+              { name: 'GitHub', icon: '💻', url: 'https://github.com/MaLiHa1321' },
+              { name: 'LinkedIn', icon: '💼', url: 'https://www.linkedin.com/in/maliha-sultana-2175a7263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+              { name: 'Email', icon: '📧', url: 'malihakhan20001@gmail.com' }
             ].map((social) => (
               <a
                 key={social.name}
@@ -54,13 +48,6 @@ const Footer = () => {
               </a>
             ))}
           </div>
-        </div>
-
-        {/* Bottom Text */}
-        <div className="text-center mt-8 pt-8 border-t border-gray-800">
-          <p className="text-gray-500 text-sm">
-            Built with ❤️ using React & Tailwind CSS
-          </p>
         </div>
       </div>
     </footer>
