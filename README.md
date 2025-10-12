@@ -1,16 +1,39 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Maliha Sultana - Portfolio Website
 
-Currently, two official plugins are available:
+A modern, responsive portfolio website built with React and Tailwind CSS showcasing my skills, projects, and experience as a Junior Frontend Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Live Link](https://portfolio1-five-snowy.vercel.app/)
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Modern Design** - Clean, dark theme with beautiful gradients
+- **Fully Responsive** - Optimized for all devices (mobile, tablet, desktop)
+- **Fast Performance** - Built with React for smooth interactions
+- **SEO Friendly** - Proper meta tags and semantic HTML
+- **Contact Form** - Easy way to get in touch
+- **Project Showcase** - Highlighting my best work
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js, Tailwind CSS
+- **Icons:** React Icons
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
+
+## 📦 Installation
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone ""
+
+# Navigate to project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
