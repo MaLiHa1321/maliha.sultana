@@ -17,7 +17,7 @@ export const portfolioData = {
     { name: "React", level: 90, category: "frontend", icon: "⚛️", color: "#61DAFB" },
     { name: "Firebase", level: 50, category: "backend", icon: "🔥", color: "#FFCA28" },
     { name: "Node.js", level: 30, category: "backend", icon: "🟢", color: "#339933" },
-    { name: "Express", level: 35, category: "backend", icon: "🚂", color: "#000000" },
+    { name: "Express", level: 35, category: "backend", icon: "⚡", color: "#000000" },
     { name: "MongoDB", level: 40, category: "backend", icon: "🍃", color: "#47A248" },
     { name: "TypeScript", level: 30, category: "frontend", icon: "🔷", color: "#3178C6" },
   ],
@@ -26,16 +26,26 @@ export const portfolioData = {
     
     {
       id: 1,
-      title: "Collaboration Presentation Software",
-      description: "The Collaborative Presentation App is a web-based platform that enables multiple users to create, edit, and present slides together in a shared workspace. It simplifies teamwork by allowing users to build and manage presentations collaboratively through an intuitive interface.",
-      image: "https://i.ibb.co.com/9mjXRp1h/image.png",
-      technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
-      github: "https://github.com/MaLiHa1321/Collaboration_presentation_software",
-      live: "https://collaboration-presentation-software.vercel.app/",
+      title: "AI Gameverse (Comming Soon)",
+      description: "AI Gameverse is an interactive web platform where players can create, chat, and engage with AI-powered characters inside a virtual world. It blends gaming and artificial intelligence to deliver immersive story-driven experiences that evolve with every interaction.",
+      image: "https://i.ibb.co.com/Nkd35xN/image.png",
+      technologies: ["React", "Tailwind CSS", "Node.js","Firebase", "MongoDB"],
+      github: "https://github.com/MaLiHa1321/AI_Gameverse.git",
+      live: "https://ai-gameverse.vercel.app/",
+      featured: true
+    },
+      {
+      id: 2,
+      title: "ToDo List ",
+      description: "A simple and responsive Todo List web application built using React and TypeScript. This project helps you manage your daily tasks with options to add, edit, mark as completed, and delete todos.",
+      image: "https://i.ibb.co.com/G3JJZgNZ/image.png",
+      technologies: ["React", "TypeScript", "CSS"],
+      github: "https://github.com/MaLiHa1321/taskflow.git",
+      live: "http://valuable-berry.surge.sh/",
       featured: false
     },
     {
-      id: 2,
+      id: 3,
       title: "Library Management System",
       description: "This system is designed to streamline and enhance the user experience in managing and exploring the library's book collection",
       image: "https://i.ibb.co.com/ZK0YBJK/library.png",
@@ -45,7 +55,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 3,
+      id: 4 ,
       title: "Inventory Management System",
       description: "A inventory management system with user authentication, product CRUD operations. Features include admin dashboard and responsive design for efficient business operations.",
       image: "https://i.ibb.co.com/93wxPrpv/image.png",
@@ -54,15 +64,6 @@ export const portfolioData = {
       live: "https://legendary-maamoul-54cc3e.netlify.app/",
       featured: false
     },
-      {
-      id: 4,
-      title: "ToDo List ",
-      description: "A simple and responsive Todo List web application built using React and TypeScript. This project helps you manage your daily tasks with options to add, edit, mark as completed, and delete todos.",
-      image: "https://i.ibb.co.com/G3JJZgNZ/image.png",
-      technologies: ["React", "TypeScript", "CSS"],
-      github: "https://github.com/MaLiHa1321/taskflow.git",
-      live: "http://valuable-berry.surge.sh/",
-      featured: false
-    }
+    
   ]
 };
