@@ -3,7 +3,7 @@ export const portfolioData = {
   personal: {
     name: "Maliha Sultana",
     title: "Jr. Frontend Developer",
-    email: "malihakhan2001@gmail.com",
+    email: "malihakhan20001@gmail.com",
     location: "Dhaka, Bangladesh",
     bio: "I'm a Junior Frontend Developer who believes that great web experiences should be accessible to everyone. My focus is on creating interfaces that are not only visually appealing but also intuitive and easy to use. I pay close attention to details like responsive design, and user interaction patterns. I'm passionate about learning new approaches to frontend development and applying them to create better digital products.",
     avatar: "https://i.ibb.co.com/Rpd0HxNJ/my-photo.jpg"
