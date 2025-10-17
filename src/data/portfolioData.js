@@ -11,10 +11,10 @@ export const portfolioData = {
   
   skills: [
     { name: "HTML", level: 95, category: "frontend", icon: "🌐", color: "#E34F26" },
-    { name: "CSS", level: 92, category: "frontend", icon: "🎨", color: "#1572B6" },
+    { name: "CSS", level: 80, category: "frontend", icon: "🎨", color: "#1572B6" },
     { name: "Tailwind CSS", level: 88, category: "frontend", icon: "💨", color: "#06B6D4" },
     { name: "JavaScript", level: 85, category: "frontend", icon: "🟨", color: "#F7DF1E" },
-    { name: "React", level: 90, category: "frontend", icon: "⚛️", color: "#61DAFB" },
+    { name: "React", level: 80, category: "frontend", icon: "⚛️", color: "#61DAFB" },
     { name: "Firebase", level: 50, category: "backend", icon: "🔥", color: "#FFCA28" },
     { name: "Node.js", level: 30, category: "backend", icon: "🟢", color: "#339933" },
     { name: "Express", level: 35, category: "backend", icon: "⚡", color: "#000000" },
