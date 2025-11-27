@@ -26,6 +26,16 @@ export const portfolioData = {
     
     {
       id: 1,
+      title: "AI-Powered Crop Prediction System(On-going)",
+      description: "An AI-based system that predicts the best crops using soil and weather data.It provides clear visualizations and recommendations to support smart farming decisions.",
+      image: "https://i.ibb.co.com/MxcgtxSM/a.png",
+      technologies: ["HtML", "CSS", "ML Model","Python","Flask", "MongoDB"],
+      github: "https://github.com/MaLiHa1321/Crop_Prediction_App.git",
+      live: "https://crop-prediction-app-1.onrender.com/",
+      featured: true
+    },
+    {
+      id: 2,
       title: "AI Gameverse (Comming Soon)",
       description: "AI Gameverse is an interactive web platform where players can create, chat, and engage with AI-powered characters inside a virtual world. It blends gaming and artificial intelligence to deliver immersive story-driven experiences that evolve with every interaction.",
       image: "https://i.ibb.co.com/Nkd35xN/image.png",
@@ -35,7 +45,7 @@ export const portfolioData = {
       featured: true
     },
       {
-      id: 2,
+      id: 3,
       title: "ToDo List ",
       description: "A simple and responsive Todo List web application built using React and TypeScript. This project helps you manage your daily tasks with options to add, edit, mark as completed, and delete todos.",
       image: "https://i.ibb.co.com/G3JJZgNZ/image.png",
@@ -45,7 +55,7 @@ export const portfolioData = {
       featured: false
     },
     {
-      id: 3,
+      id: 4,
       title: "Library Management System",
       description: "This system is designed to streamline and enhance the user experience in managing and exploring the library's book collection",
       image: "https://i.ibb.co.com/ZK0YBJK/library.png",
@@ -54,16 +64,7 @@ export const portfolioData = {
       live: "https://library-management-7f05c.web.app/",
       featured: false
     },
-    {
-      id: 4 ,
-      title: "Inventory Management System",
-      description: "A inventory management system with user authentication, product CRUD operations. Features include admin dashboard and responsive design for efficient business operations.",
-      image: "https://i.ibb.co.com/93wxPrpv/image.png",
-      technologies: ["React", "Tailwind CSS", "Express", "Mongoes", "Node Js"],
-      github: "https://github.com/MaLiHa1321/ims_project.git",
-      live: "https://legendary-maamoul-54cc3e.netlify.app/",
-      featured: false
-    },
+   
     
   ]
 };
